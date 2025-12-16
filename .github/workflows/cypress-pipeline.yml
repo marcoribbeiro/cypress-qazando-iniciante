@@ -40,7 +40,7 @@ jobs:
 
         #upload do relarorio do mocha
     - name: Upload Mocha Test Results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mocha-test-results
         path: cypress\reports\html
